@@ -44,23 +44,56 @@ weight = 1
 
 ---
 
+### Demo GitHub
 
-### Demo github
-# I.Thực hành git cơ bản, tạo nhánh → commit → tạo Pull Request → merge, và xử lý xung đột đơn giản.
+---
 
-1. Khởi tạo 1 repo mới có tên là git-practice
-![alt text](/images/tuan1/day-01/image.png)
-![alt text](/images/tuan1/day-01/image-1.png)
-2. Thực hiện clone Repo trống về máy 
-![alt text](/images/tuan1/day-01/image-2.png)
-3. Tạo file README.md trên main, thực hiện commit, push lên main
-![alt text](/images/tuan1/day-01/image-3.png)
-4. Tạo 2  nhánh mới từ main, thực hiện chỉnh sửa file README.md, commit, push, tạo pull request.
-![alt text](/images/tuan1/day-01/image-4.png)
-![alt text](/images/tuan1/day-01/image-5.png)
-![alt text](/images/tuan1/day-01/image-6.png)
-![alt text](/images/tuan1/day-01/image-7.png)
-5. Tạo và giải quyết conflict
-![alt text](/images/tuan1/day-01/image-8.png)
-![alt text](/images/tuan1/day-01/image-9.png)
-![alt text](/images/tuan1/day-01/image-10.png)
+#### I. Thực hành Git cơ bản
+
+> **Mục tiêu:** Tạo nhánh → Commit → Tạo Pull Request → Merge, và xử lý xung đột đơn giản.
+
+---
+
+**Bước 1 — Khởi tạo repository mới tên `git-practice`**
+
+Tạo repository trên GitHub với cài đặt mặc định.
+
+![Tạo repository mới trên GitHub](/images/tuan1/day-01/image.png)
+![Repository đã được tạo thành công](/images/tuan1/day-01/image-1.png)
+
+---
+
+**Bước 2 — Clone repository về máy cục bộ**
+
+Dùng `git clone` để tải repository trống về máy.
+
+![Clone repository về máy cục bộ](/images/tuan1/day-01/image-2.png)
+
+---
+
+**Bước 3 — Tạo `README.md` trên `main`, commit và push**
+
+Khởi tạo dự án với file `README.md`, sau đó commit và push lên nhánh `main`.
+
+![Tạo README.md, commit và push lên main](/images/tuan1/day-01/image-3.png)
+
+---
+
+**Bước 4 — Tạo hai nhánh, chỉnh sửa, push và tạo Pull Request**
+
+Tạo hai nhánh riêng biệt từ `main`, mỗi nhánh có thay đổi khác nhau trong `README.md`. Push cả hai nhánh và tạo Pull Request cho từng nhánh.
+
+![Tạo nhánh và thực hiện thay đổi](/images/tuan1/day-01/image-4.png)
+![Push nhánh và tạo Pull Request (nhánh 1)](/images/tuan1/day-01/image-5.png)
+![Push nhánh và tạo Pull Request (nhánh 2)](/images/tuan1/day-01/image-6.png)
+![Danh sách Pull Request trên GitHub](/images/tuan1/day-01/image-7.png)
+
+---
+
+**Bước 5 — Tạo và giải quyết xung đột merge**
+
+Khi hai nhánh cùng chỉnh sửa một dòng, xung đột sẽ xảy ra khi merge. Giải quyết thủ công và hoàn tất quá trình merge.
+
+![Phát hiện xung đột khi merge](/images/tuan1/day-01/image-8.png)
+![Giải quyết xung đột trong trình soạn thảo](/images/tuan1/day-01/image-9.png)
+![Xung đột đã được giải quyết, merge hoàn tất](/images/tuan1/day-01/image-10.png)

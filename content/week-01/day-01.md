@@ -44,21 +44,54 @@ weight = 1
 
 ### Demo GitHub
 
-#### I. Practice basic Git workflows: create a branch → commit → create a Pull Request → merge, and handle a simple conflict.
+---
 
-1. Create a new repository named `git-practice`
-   ![alt text](/images/tuan1/day-01/image.png)
-   ![alt text](/images/tuan1/day-01/image-1.png)
-2. Clone the empty repository to your local machine
-   ![alt text](/images/tuan1/day-01/image-2.png)
-3. Create the `README.md` file on `main`, then commit and push it to `main`
-   ![alt text](/images/tuan1/day-01/image-3.png)
-4. Create two new branches from `main`, make changes to `README.md`, commit, push, and create pull requests
-   ![alt text](/images/tuan1/day-01/image-4.png)
-   ![alt text](/images/tuan1/day-01/image-5.png)
-   ![alt text](/images/tuan1/day-01/image-6.png)
-   ![alt text](/images/tuan1/day-01/image-7.png)
-5. Create and resolve a conflict
-   ![alt text](/images/tuan1/day-01/image-8.png)
-   ![alt text](/images/tuan1/day-01/image-9.png)
-   ![alt text](/images/tuan1/day-01/image-10.png)
+#### I. Practice basic Git Workflows
+
+> **Goal:** Create a branch → Commit → Open a Pull Request → Merge, and handle a simple conflict.
+
+---
+
+**Step 1 — Create a new repository named `git-practice`**
+
+Create the repository on GitHub with default settings.
+
+![Create new repository on GitHub](/images/tuan1/day-01/image.png)
+![Repository created successfully](/images/tuan1/day-01/image-1.png)
+
+---
+
+**Step 2 — Clone the repository to your local machine**
+
+Use `git clone` to download the empty repository locally.
+
+![Clone repository to local](/images/tuan1/day-01/image-2.png)
+
+---
+
+**Step 3 — Create `README.md` on `main`, commit and push**
+
+Initialize the project with a `README.md`, then commit and push it to the `main` branch.
+
+![Create README.md, commit and push to main](/images/tuan1/day-01/image-3.png)
+
+---
+
+**Step 4 — Create two branches, make changes, push, and open Pull Requests**
+
+Create two separate branches from `main`, each with changes to `README.md`. Push both branches and open Pull Requests for each.
+
+![Create branch and make changes](/images/tuan1/day-01/image-4.png)
+![Push branch and open Pull Request (branch 1)](/images/tuan1/day-01/image-5.png)
+![Push branch and open Pull Request (branch 2)](/images/tuan1/day-01/image-6.png)
+![Pull Requests listed on GitHub](/images/tuan1/day-01/image-7.png)
+
+---
+
+**Step 5 — Create and resolve a merge conflict**
+
+When both branches modify the same lines, a conflict occurs on merge. Resolve it manually and complete the merge.
+
+![Merge conflict detected](/images/tuan1/day-01/image-8.png)
+![Resolving the conflict in the editor](/images/tuan1/day-01/image-9.png)
+![Conflict resolved, merge completed](/images/tuan1/day-01/image-10.png)
