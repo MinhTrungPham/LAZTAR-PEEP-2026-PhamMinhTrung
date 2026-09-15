@@ -47,18 +47,18 @@ weight = 1
 #### I. Practice basic Git workflows: create a branch → commit → create a Pull Request → merge, and handle a simple conflict.
 
 1. Create a new repository named `git-practice`
-   ![alt text](../../static/images/tuan1/day-01/image.png)
-   ![alt text](../../static/images/tuan1/day-01/image-1.png)
+   ![alt text](/images/tuan1/day-01/image.png)
+   ![alt text](/images/tuan1/day-01/image-1.png)
 2. Clone the empty repository to your local machine
-   ![alt text](../../static/images/tuan1/day-01/image-2.png)
+   ![alt text](/images/tuan1/day-01/image-2.png)
 3. Create the `README.md` file on `main`, then commit and push it to `main`
-   ![alt text](../../static/images/tuan1/day-01/image-3.png)
+   ![alt text](/images/tuan1/day-01/image-3.png)
 4. Create two new branches from `main`, make changes to `README.md`, commit, push, and create pull requests
-   ![alt text](../../static/images/tuan1/day-01/image-4.png)
-   ![alt text](../../static/images/tuan1/day-01/image-5.png)
-   ![alt text](../../static/images/tuan1/day-01/image-6.png)
-   ![alt text](../../static/images/tuan1/day-01/image-7.png)
+   ![alt text](/images/tuan1/day-01/image-4.png)
+   ![alt text](/images/tuan1/day-01/image-5.png)
+   ![alt text](/images/tuan1/day-01/image-6.png)
+   ![alt text](/images/tuan1/day-01/image-7.png)
 5. Create and resolve a conflict
-   ![alt text](../../static/images/tuan1/day-01/image-8.png)
-   ![alt text](../../static/images/tuan1/day-01/image-9.png)
-   ![alt text](../../static/images/tuan1/day-01/image-10.png)
+   ![alt text](/images/tuan1/day-01/image-8.png)
+   ![alt text](/images/tuan1/day-01/image-9.png)
+   ![alt text](/images/tuan1/day-01/image-10.png)

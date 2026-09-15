@@ -1,5 +1,5 @@
 +++
-title = "Ngày 01 - 15/06/2026"
+title = "Ngày 01 - 15/09/2026"
 weight = 1
 +++
 
@@ -49,18 +49,18 @@ weight = 1
 # I.Thực hành git cơ bản, tạo nhánh → commit → tạo Pull Request → merge, và xử lý xung đột đơn giản.
 
 1. Khởi tạo 1 repo mới có tên là git-practice
-![alt text](../../static/images/tuan1/day-01/image.png)
-![alt text](../../static/images/tuan1/day-01/image-1.png)
+![alt text](/images/tuan1/day-01/image.png)
+![alt text](/images/tuan1/day-01/image-1.png)
 2. Thực hiện clone Repo trống về máy 
-![alt text](../../static/images/tuan1/day-01/image-2.png)
+![alt text](/images/tuan1/day-01/image-2.png)
 3. Tạo file README.md trên main, thực hiện commit, push lên main
-![alt text](../../static/images/tuan1/day-01/image-3.png)
+![alt text](/images/tuan1/day-01/image-3.png)
 4. Tạo 2  nhánh mới từ main, thực hiện chỉnh sửa file README.md, commit, push, tạo pull request.
-![alt text](../../static/images/tuan1/day-01/image-4.png)
-![alt text](../../static/images/tuan1/day-01/image-5.png)
-![alt text](../../static/images/tuan1/day-01/image-6.png)
-![alt text](../../static/images/tuan1/day-01/image-7.png)
+![alt text](/images/tuan1/day-01/image-4.png)
+![alt text](/images/tuan1/day-01/image-5.png)
+![alt text](/images/tuan1/day-01/image-6.png)
+![alt text](/images/tuan1/day-01/image-7.png)
 5. Tạo và giải quyết conflict
-![alt text](../../static/images/tuan1/day-01/image-8.png)
-![alt text](../../static/images/tuan1/day-01/image-9.png)
-![alt text](../../static/images/tuan1/day-01/image-10.png)
+![alt text](/images/tuan1/day-01/image-8.png)
+![alt text](/images/tuan1/day-01/image-9.png)
+![alt text](/images/tuan1/day-01/image-10.png)
