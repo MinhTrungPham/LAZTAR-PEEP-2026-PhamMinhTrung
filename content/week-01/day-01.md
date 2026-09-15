@@ -1,5 +1,5 @@
 +++
-title = "Day 01 - 15/06/2026"
+title = "Day 01 - 15/09/2026"
 weight = 1
 +++
 
@@ -42,58 +42,23 @@ weight = 1
 | Cancel the merge                 | Open Source Control, use the `...` menu, then choose `Abort Merge`  |
 | Resolve conflicts manually       | Review the marked conflict blocks and keep the correct final code   |
 
-### TypeScript
+### Demo GitHub
 
-#### Interface vs Type
+#### I. Practice basic Git workflows: create a branch → commit → create a Pull Request → merge, and handle a simple conflict.
 
-- Use `interface` when the main goal is to describe object structure and support inheritance.
-- Use `type` when the shape is more complex, such as a union, tuple, primitive alias, or function type.
-- Both are valid for object modeling, so choose the one that fits the use case and team convention.
-
-#### Union Type
-
-- A union type allows a value to have more than one possible type.
-- It uses the `|` operator.
-
-#### Omit Utility Type
-
-- `Omit` creates a new type by removing one or more properties from an existing type.
-- It is useful when reusing a model but hiding fields that are not needed.
-
-#### Extends
-
-- `extends` lets an interface inherit properties from another interface.
-- It reduces duplication and keeps related types consistent.
-
----
-
-### ESLint
-
-#### Purpose of ESLint
-
-- ESLint is a static analysis tool for JavaScript and TypeScript.
-- It helps detect errors and warnings before runtime.
-- It keeps code aligned with project conventions.
-
-#### Common Errors and Warnings
-
-- `no-unused-vars`: a variable is declared but not used.
-- `no-undef`: a variable is used before it is defined.
-- `react-hooks/rules-of-hooks`: React Hooks are used in the wrong place.
-- `react-hooks/exhaustive-deps`: a `useEffect` dependency is missing.
-- `no-magic-numbers`: a hard-coded number is used without clear meaning.
-
-## Lessons Learned
-
-- Avoid **"magic numbers"**.
-- Do not commit `node_modules`.
-- Understand the difference between merge and rebase.
-- Use `git add <file>` instead of `git add .` when possible.
-
-### Key Principles
-
-- Organize `src/` by feature or by file type.
-- Keep configuration files at the project root.
-- Always add `node_modules/` and `dist/` to `.gitignore`.
-- Use clear and descriptive folder names.
-- Group related files together for easier navigation.
+1. Create a new repository named `git-practice`
+   ![alt text](../../static/images/tuan1/day-01/image.png)
+   ![alt text](../../static/images/tuan1/day-01/image-1.png)
+2. Clone the empty repository to your local machine
+   ![alt text](../../static/images/tuan1/day-01/image-2.png)
+3. Create the `README.md` file on `main`, then commit and push it to `main`
+   ![alt text](../../static/images/tuan1/day-01/image-3.png)
+4. Create two new branches from `main`, make changes to `README.md`, commit, push, and create pull requests
+   ![alt text](../../static/images/tuan1/day-01/image-4.png)
+   ![alt text](../../static/images/tuan1/day-01/image-5.png)
+   ![alt text](../../static/images/tuan1/day-01/image-6.png)
+   ![alt text](../../static/images/tuan1/day-01/image-7.png)
+5. Create and resolve a conflict
+   ![alt text](../../static/images/tuan1/day-01/image-8.png)
+   ![alt text](../../static/images/tuan1/day-01/image-9.png)
+   ![alt text](../../static/images/tuan1/day-01/image-10.png)
