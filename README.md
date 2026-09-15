@@ -4,7 +4,7 @@ Technical notes, learning summaries, and progress documentation from my trainee 
 
 ## Live Site
 
-[LAZTAR PEEP 2026 Trainee Notes](https://HuyMinhDev.github.io/LAZTAR-PEEP/)
+[LAZTAR PEEP 2026 Trainee Notes](https://MinhTrungPham.github.io/LAZTAR-PEEP-2026-PhamMinhTrung/)
 
 ## Tech Stack
 
