@@ -170,3 +170,69 @@ Có. Next.js hỗ trợ file `.ts`, `.tsx`, kiểm tra kiểu và cấu hình `t
 ### Có thể deploy Next.js ở đâu?
 
 Có thể deploy lên Vercel, AWS, Google Cloud, Azure, Render, Railway, Docker hoặc máy chủ riêng. Trang tĩnh phù hợp cũng có thể deploy lên CDN/static hosting; cần kiểm tra khả năng hỗ trợ SSR, ISR, image optimization và API server.
+
+## B. Thực hành
+
+## Hoàn thiện Portfolios
+
+### Mục tiêu
+
+Hoàn thiện trang portfolio cá nhân xây dựng bằng React và Ant Design, cập nhật nội dung thực tế, tối ưu giao diện responsive và chuẩn bị sản phẩm để trình bày với mentor.
+
+Mục tiêu cuối cùng là có:
+
+- Một trang portfolio cá nhân hoàn chỉnh.
+- Giao diện responsive trên desktop và mobile.
+- Nội dung giới thiệu, kỹ năng, dự án, kinh nghiệm và thông tin liên hệ.
+- Link website đã deploy.
+- Link báo cáo tuần được gửi cho mentor thông qua Slack.
+
+### Quá trình thực hiện
+
+**Bước 1: Cài đặt và cấu hình project**
+
+- Cài đặt và kiểm tra các thư viện: React, React DOM, React Router DOM, Ant Design, Lucide React.
+- Tạo cấu trúc thư mục cơ bản.
+
+**Bước 2: Xây dựng cấu trúc component**
+
+- Tạo các UI component dùng lại nhiều lần: Button, Card, Modal, Tag, Drawer, IconButton.
+- Tạo layout chính cho website.
+- Tạo `SiteHeader` với logo cá nhân, navigation, nút liên hệ và mobile drawer navigation.
+- Tạo `SiteFooter`.
+- Tạo routing bằng `react-router-dom`.
+- Tạo `PortfolioLayout` để quản lý layout chung của website.
+
+**Bước 3: Xây dựng landing page**
+
+Landing page được chia thành các section:
+
+- Hero / Introduction
+- About Me
+- Skills
+- Projects
+- Experience / Education
+- PEEP Report
+- Contact
+
+Các section được liên kết bằng anchor navigation để người dùng có thể di chuyển nhanh trong trang.
+
+**Bước 4: Cập nhật nội dung cá nhân**
+
+- Thay thế nội dung mẫu bằng thông tin từ CV cá nhân.
+- Bổ sung kỹ năng được phân nhóm: Programming, Backend, Frontend, Database, Tools & AI.
+- Thêm các dự án thực tế với mô tả, công nghệ sử dụng và vai trò.
+- Thêm thông tin học vấn và kinh nghiệm.
+- Thêm thông tin liên hệ và các đường dẫn mạng xã hội.
+
+**Bước 5: Tinh chỉnh giao diện và kiểm tra**
+
+- Redesign section About Me và thêm profile snapshot card với các chỉ số nổi bật.
+- Đổi palette từ màu beige/cam sang màu xanh lạnh.
+- Thêm bo góc cho button, card, tag và các section.
+- Thêm shadow nhẹ để giao diện có chiều sâu hơn.
+- Thay favicon mặc định bằng logo tùy chỉnh.
+- Kiểm tra responsive trên các kích thước màn hình khác nhau.
+- Chạy production build để xác nhận không có lỗi.
+### Link Demo
+- [Personal Portfolio](https://minhtrungportfolios-ebon.vercel.app/)

@@ -170,3 +170,69 @@ Yes. Next.js supports `.ts`, `.tsx`, type checking, and `tsconfig.json`; type ch
 ### Where can Next.js be deployed?
 
 Next.js can run on Vercel, AWS, Google Cloud, Azure, Render, Railway, Docker, or a private server. Suitable static pages can also be deployed to a CDN or static host, subject to SSR, ISR, image, and API support.
+
+## B. Practice
+
+## Completing the Portfolio
+
+### Objectives
+
+Complete a personal portfolio website built with React and Ant Design, populate it with real content, optimize the responsive layout, and prepare it for the mentor demo.
+
+Expected deliverables:
+
+- A complete personal portfolio page.
+- Responsive layout on both desktop and mobile.
+- Sections for introduction, skills, projects, experience, and contact.
+- A deployed website link.
+- A weekly report link shared with the mentor via Slack.
+
+### Build Process
+
+**Step 1: Install and configure the project**
+
+- Install and verify the required libraries: React, React DOM, React Router DOM, Ant Design, Lucide React.
+- Create the basic folder structure.
+
+**Step 2: Build the component structure**
+
+- Create reusable UI components: Button, Card, Modal, Tag, Drawer, IconButton.
+- Create the main site layout.
+- Create `SiteHeader` with a personal logo, navigation, contact button, and mobile drawer navigation.
+- Create `SiteFooter`.
+- Set up routing with `react-router-dom`.
+- Create `PortfolioLayout` to manage the shared layout.
+
+**Step 3: Build the landing page**
+
+The landing page is divided into the following sections:
+
+- Hero / Introduction
+- About Me
+- Skills
+- Projects
+- Experience / Education
+- PEEP Report
+- Contact
+
+Sections are linked with anchor navigation so users can jump quickly within the page.
+
+**Step 4: Update personal content**
+
+- Replace placeholder content with real information from the personal CV.
+- Add skills grouped by category: Programming, Backend, Frontend, Database, Tools & AI.
+- Add project entries with descriptions, technologies used, and roles.
+- Add education and experience entries.
+- Add contact information and social links.
+
+**Step 5: Refine the UI and verify**
+
+- Redesign the About Me section and add a profile snapshot card with key metrics.
+- Switch the color palette from beige/orange to a cool blue theme.
+- Add rounded corners to buttons, cards, tags, and sections.
+- Add subtle shadows for visual depth.
+- Replace the default favicon with a custom logo.
+- Verify responsive behavior across different screen sizes.
+- Run a production build to confirm there are no errors.
+### Link Demo
+- [Personal Portfolio](https://minhtrungportfolios-ebon.vercel.app/)
