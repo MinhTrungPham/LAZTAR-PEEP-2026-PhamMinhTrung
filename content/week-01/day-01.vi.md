@@ -1,4 +1,7 @@
 +++
+
+#### I. Các câu lệnh Git cơ bản
+
 title = "Ngày 01 - 15/09/2026"
 weight = 1
 +++
@@ -9,28 +12,50 @@ weight = 1
 
 #### Các câu lệnh phổ biến
 
-| Lệnh               | Mô Tả                                            |
-| ------------------ | ------------------------------------------------ |
-| git init           | Khởi tạo kho lưu trữ Git mới                     |
-| git remote         | Quản lý kết nối kho lưu trữ từ xa                |
-| git clone          | Sao chép kho lưu trữ từ xa về máy cục bộ         |
-| git fetch          | Tải các thay đổi từ xa mà không hợp nhất         |
-| git pull           | Tải và hợp nhất các thay đổi từ xa               |
-| git status         | Hiển thị trạng thái hiện tại của kho lưu trữ     |
-| git branch         | Liệt kê, tạo hoặc xóa các nhánh                  |
-| git switch         | Chuyển sang nhánh khác                           |
-| git checkout       | Chuyển nhánh hoặc khôi phục tệp thư mục làm việc |
-| git add            | Chuẩn bị các thay đổi để commit                  |
-| git commit         | Ghi lại các thay đổi vào kho lưu trữ             |
-| git commit --amend | Sửa đổi commit cuối cùng                         |
-| git push           | Tải các commit cục bộ lên từ xa                  |
-| git reset          | Bỏ chuẩn bị hoặc đặt lại các commit              |
-| git rebase         | Áp dụng lại các commit trên một nhánh khác       |
-| git rebase -i      | Rebase tương tác để chỉnh sửa các commit         |
-| git stash          | Lưu các thay đổi chưa commit tạm thời            |
-| git stash pop      | Khôi phục các thay đổi đã lưu trữ                |
-| git merge          | Kết hợp các thay đổi từ nhánh khác               |
-| git cherry-pick    | Áp dụng các commit cụ thể từ nhánh khác          |
+| Lệnh         | Mô Tả                                            |
+| ------------ | ------------------------------------------------ |
+| git init     | Khởi tạo kho lưu trữ Git mới                     |
+| git remote   | Quản lý kết nối kho lưu trữ từ xa                |
+| git clone    | Sao chép kho lưu trữ từ xa về máy cục bộ         |
+| git fetch    | Tải các thay đổi từ xa mà không hợp nhất         |
+| git pull     | Tải và hợp nhất các thay đổi từ xa               |
+| git status   | Hiển thị trạng thái hiện tại của kho lưu trữ     |
+| git branch   | Liệt kê, tạo hoặc xóa các nhánh                  |
+| git switch   | Chuyển sang nhánh khác                           |
+| git checkout | Chuyển nhánh hoặc khôi phục tệp thư mục làm việc |
+| git add      | Chuẩn bị các thay đổi để commit                  |
+
+#### Ảnh chụp các câu lệnh Git
+
+![Câu lệnh git version](/images/tuan1/day-01/git_version.png)
+![Câu lệnh git init](/images/tuan1/day-01/git_init.png)
+![Câu lệnh git remote](/images/tuan1/day-01/git_remote.png)
+![Câu lệnh git clone](/images/tuan1/day-01/git_clone.png)
+![Câu lệnh git fetch](/images/tuan1/day-01/git_fetch.png)
+![Câu lệnh git pull](/images/tuan1/day-01/git_pull.png)
+![Câu lệnh git status](/images/tuan1/day-01/git_status.png)
+![Câu lệnh git branch](/images/tuan1/day-01/git_branch.png)
+![Câu lệnh git switch](/images/tuan1/day-01/git_switch.png)
+![Câu lệnh git checkout](/images/tuan1/day-01/git_checkout.png)
+![Câu lệnh git add](/images/tuan1/day-01/git_add.png)
+![Câu lệnh git commit](/images/tuan1/day-01/git_commit.png)
+![Câu lệnh git commit và git log](/images/tuan1/day-01/git_commit_git_log.png)
+![Câu lệnh git commit amend](/images/tuan1/day-01/git_amend.png)
+![Câu lệnh git push](/images/tuan1/day-01/git_push.png)
+![Câu lệnh git reset](/images/tuan1/day-01/git_reset.png)
+![Câu lệnh git stash](/images/tuan1/day-01/git%20stash.png)
+![Câu lệnh git stash pop](/images/tuan1/day-01/git_stash_pop.png)
+![Câu lệnh git merge](/images/tuan1/day-01/git_merge.png)
+| git commit | Ghi lại các thay đổi vào kho lưu trữ |
+| git commit --amend | Sửa đổi commit cuối cùng |
+| git push | Tải các commit cục bộ lên từ xa |
+| git reset | Bỏ chuẩn bị hoặc đặt lại các commit |
+| git rebase | Áp dụng lại các commit trên một nhánh khác |
+| git rebase -i | Rebase tương tác để chỉnh sửa các commit |
+| git stash | Lưu các thay đổi chưa commit tạm thời |
+| git stash pop | Khôi phục các thay đổi đã lưu trữ |
+| git merge | Kết hợp các thay đổi từ nhánh khác |
+| git cherry-pick | Áp dụng các commit cụ thể từ nhánh khác |
 
 #### Xử Lý Xung Đột Git
 
@@ -44,11 +69,7 @@ weight = 1
 
 ---
 
-### Demo GitHub
-
----
-
-#### I. Thực hành Git cơ bản
+#### II. Thực hành Git cơ bản
 
 > **Mục tiêu:** Tạo nhánh → Commit → Tạo Pull Request → Merge, và xử lý xung đột đơn giản.
 
@@ -96,4 +117,4 @@ Khi hai nhánh cùng chỉnh sửa một dòng, xung đột sẽ xảy ra khi me
 
 ![Phát hiện xung đột khi merge](/images/tuan1/day-01/image-8.png)
 ![Giải quyết xung đột trong trình soạn thảo](/images/tuan1/day-01/image-9.png)
-![Xung đột đã được giải quyết, merge hoàn tất](/images/tuan1/day-01/image-10.png)
+![Xung đột đã được giải quyết, merge hoàn tất](/images/tuan1/day-01/image-10.png)

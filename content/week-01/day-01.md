@@ -1,4 +1,7 @@
 +++
+
+#### I. Basic Git Commands
+
 title = "Day 01 - 15/09/2026"
 weight = 1
 +++
@@ -9,44 +12,62 @@ weight = 1
 
 #### Common Commands
 
-| Command            | Meaning                                        |
-| ------------------ | ---------------------------------------------- |
-| git init           | Create a new Git repository                    |
-| git remote         | Manage connections to remote repositories      |
-| git clone          | Copy a remote repository to the local machine  |
-| git fetch          | Download remote changes without merging them   |
-| git pull           | Download and merge remote changes              |
-| git status         | Show the current repository state              |
-| git branch         | List, create, or delete branches               |
-| git switch         | Move to another branch                         |
-| git checkout       | Switch branches or restore files               |
-| git add            | Stage changes for the next commit              |
-| git commit         | Save staged changes to the repository history  |
-| git commit --amend | Update the latest commit                       |
-| git push           | Upload local commits to a remote repository    |
-| git reset          | Unstage changes or move commit history         |
-| git rebase         | Reapply commits on top of another branch       |
-| git rebase -i      | Edit, squash, or reorder commits interactively |
-| git stash          | Temporarily save uncommitted work              |
-| git stash pop      | Restore the latest stashed work                |
-| git merge          | Combine changes from another branch            |
-| git cherry-pick    | Apply a specific commit to the current branch  |
+| Command      | Meaning                                       |
+| ------------ | --------------------------------------------- |
+| git init     | Create a new Git repository                   |
+| git remote   | Manage connections to remote repositories     |
+| git clone    | Copy a remote repository to the local machine |
+| git fetch    | Download remote changes without merging them  |
+| git pull     | Download and merge remote changes             |
+| git status   | Show the current repository state             |
+| git branch   | List, create, or delete branches              |
+| git switch   | Move to another branch                        |
+| git checkout | Switch branches or restore files              |
+| git add      | Stage changes for the next commit             |
+
+#### Git Command Screenshots
+
+![git version command](/images/tuan1/day-01/git_version.png)
+![git init command](/images/tuan1/day-01/git_init.png)
+![git remote command](/images/tuan1/day-01/git_remote.png)
+![git clone command](/images/tuan1/day-01/git_clone.png)
+![git fetch command](/images/tuan1/day-01/git_fetch.png)
+![git pull command](/images/tuan1/day-01/git_pull.png)
+![git status command](/images/tuan1/day-01/git_status.png)
+![git branch command](/images/tuan1/day-01/git_branch.png)
+![git switch command](/images/tuan1/day-01/git_switch.png)
+![git checkout command](/images/tuan1/day-01/git_checkout.png)
+![git add command](/images/tuan1/day-01/git_add.png)
+![git commit command](/images/tuan1/day-01/git_commit.png)
+![git commit and git log commands](/images/tuan1/day-01/git_commit_git_log.png)
+![git commit amend command](/images/tuan1/day-01/git_amend.png)
+![git push command](/images/tuan1/day-01/git_push.png)
+![git reset command](/images/tuan1/day-01/git_reset.png)
+![git stash command](/images/tuan1/day-01/git%20stash.png)
+![git stash pop command](/images/tuan1/day-01/git_stash_pop.png)
+![git merge command](/images/tuan1/day-01/git_merge.png)
+| git commit | Save staged changes to the repository history |
+| git commit --amend | Update the latest commit |
+| git push | Upload local commits to a remote repository |
+| git reset | Unstage changes or move commit history |
+| git rebase | Reapply commits on top of another branch |
+| git rebase -i | Edit, squash, or reorder commits interactively |
+| git stash | Temporarily save uncommitted work |
+| git stash pop | Restore the latest stashed work |
+| git merge | Combine changes from another branch |
+| git cherry-pick | Apply a specific commit to the current branch |
 
 #### Merge Conflict Handling
 
 | Situation                        | Solution in Code Source Control                                     |
 | -------------------------------- | ------------------------------------------------------------------- |
 | Keep changes from both branches  | Open the file, edit the conflict manually, then mark it as resolved |
-| Keep the current branch version  | Use `Accept Current Change` in the conflict editor                  |
-| Keep the incoming branch version | Use `Accept Incoming Change` in the conflict editor                 |
-| Cancel the merge                 | Open Source Control, use the `...` menu, then choose `Abort Merge`  |
+| Keep the current branch version  | Use`Accept Current Change` in the conflict editor                   |
+| Keep the incoming branch version | Use`Accept Incoming Change` in the conflict editor                  |
+| Cancel the merge                 | Open Source Control, use the`...` menu, then choose `Abort Merge`   |
 | Resolve conflicts manually       | Review the marked conflict blocks and keep the correct final code   |
 
-### Demo GitHub
-
----
-
-#### I. Practice basic Git Workflows
+#### II. Practice Basic Git Workflows
 
 > **Goal:** Create a branch → Commit → Open a Pull Request → Merge, and handle a simple conflict.
 
