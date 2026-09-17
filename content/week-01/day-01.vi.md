@@ -2,7 +2,7 @@
 
 #### I. Các câu lệnh Git cơ bản
 
-title = "Ngày 01 - 15/09/2026"
+title = "Ngày 01 - 15/09/2026 (On-site)"
 weight = 1
 +++
 

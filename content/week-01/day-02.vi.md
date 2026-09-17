@@ -1,5 +1,5 @@
 +++
-title = "Ngày 02 - 16/09/2026"
+title = "Ngày 02 - 16/09/2026 (Remote)"
 weight = 2
 +++
 
@@ -234,6 +234,8 @@ Các section được liên kết bằng anchor navigation để người dùng 
 - Thay favicon mặc định bằng logo tùy chỉnh.
 - Kiểm tra responsive trên các kích thước màn hình khác nhau.
 - Chạy production build để xác nhận không có lỗi.
+
 ### Link Demo
+
 - [Personal Portfolio](https://minhtrungportfolios-ebon.vercel.app/)
 - [Source Code](https://github.com/MinhTrungPham/weekly-reports/tree/main/tuan-01/my%20portfolios)

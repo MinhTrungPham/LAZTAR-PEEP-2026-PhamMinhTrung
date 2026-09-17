@@ -1,75 +1,127 @@
 +++
-title = "Ngày 03 - 17/06/2026"
+title = "Ngày 03 - 17/09/2026 (Remote)"
 weight = 3
 +++
 
-## Việc đã làm
+### Links
 
-### 1. Thống nhất ý tưởng dự án Custom T-Shirt Store
+- [Source Code](https://github.com/MinhTrungPham/weekly-reports/tree/main/tuan-01/landing-page)
+- [Live Demo](https://landing-page-phi-tan-xz2x97g6ov.vercel.app/)
 
-#### Mục tiêu dự án
+## Thực hành
 
-Xây dựng hệ thống đặt áo thun theo yêu cầu nhằm thực hành các nghiệp vụ thương mại điện tử cơ bản như quản lý sản phẩm, tải lên hình ảnh, xử lý đơn hàng và quản trị đơn hàng.
+## Xây dựng Landing Page Naruto
 
-> [Link drive tổng hợp tài liệu dự án](https://drive.google.com/drive/folders/1gnnD7WcaAnyGG03nwvuGteWGj5RKcDg3?usp=sharing)
+### Tổng quan
 
-#### Chức năng khách hàng
+Công việc chính trong ngày là xây dựng nền tảng landing page giới thiệu anime Naruto theo phong cách **Dark Cinematic + Japanese + Bento Grid**. Trang được thiết kế như một trải nghiệm nhập vai vào thế giới shinobi — bao gồm nhân vật, hành trình, kỹ thuật và các mối quan hệ quan trọng.
 
-##### Quản lý tài khoản
-- Đăng ký tài khoản
-- Đăng nhập / Đăng xuất
-- Cập nhật thông tin cá nhân
+---
 
-##### Danh mục sản phẩm
-- Xem danh sách các mẫu áo có sẵn
-- Xem thông tin chi tiết sản phẩm:
-  - Tên sản phẩm
-  - Hình ảnh
-  - Giá bán
-  - Mô tả
+### Công nghệ sử dụng
 
-##### Tùy chỉnh sản phẩm
-- Chọn màu sắc
-- Chọn kích thước (S, M, L, XL)
-- Tải lên hình ảnh để in lên áo
+| Tầng              | Lựa chọn                          |
+| ------------------ | ----------------------------------- |
+| Framework          | Next.js 16 với App Router          |
+| UI                 | React 19 + TypeScript               |
+| Design System      | `@buildo/bento-design-system`     |
+| Styling            | Tailwind CSS / PostCSS + CSS custom |
+| Chất lượng code | ESLint                              |
 
-##### Quản lý đơn hàng
-- Nhập thông tin nhận hàng:
-  - Họ tên người nhận
-  - Số điện thoại
-  - Địa chỉ giao hàng
-  - Ghi chú (không bắt buộc)
-- Tạo đơn hàng
-- Xem lịch sử đơn hàng
-- Theo dõi trạng thái đơn hàng:
-  - Pending
-  - Confirmed
-  - Shipping
-  - Completed
-  - Cancelled
+---
 
-#### Chức năng quản trị viên
+### Kiến trúc project
 
-##### Quản lý sản phẩm
-- Tạo sản phẩm
-- Chỉnh sửa sản phẩm
-- Xóa sản phẩm
+Project được tổ chức theo hướng tách biệt layout, UI primitive, section và data:
 
-##### Quản lý đơn hàng
-- Xem danh sách đơn hàng
-- Xem hình ảnh khách hàng đã tải lên
-- Cập nhật trạng thái đơn hàng
+```text
+landing-page/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── globals.css
+│   └── styles/
+│       ├── base.css
+│       ├── naruto-theme.css
+│       ├── motion.css
+│       ├── sections.css
+│       └── jutsu-orbit.css
+├── components/
+│   ├── layout/
+│   │   ├── MarketingLayout.tsx
+│   │   ├── SiteHeader.tsx
+│   │   └── SiteFooter.tsx
+│   ├── sections/
+│   │   ├── NarutoLanding.tsx
+│   │   └── naruto/
+│   │       ├── AboutSection.tsx
+│   │       ├── CharactersSection.tsx
+│   │       ├── HeroSection.tsx
+│   │       ├── IconicMomentsSection.tsx
+│   │       ├── JourneySection.tsx
+│   │       ├── JutsuSection.tsx
+│   │       ├── NarutoCtaSection.tsx
+│   │       ├── QuotesSection.tsx
+│   │       ├── RivalrySection.tsx
+│   │       ├── ShinobiWorldSection.tsx
+│   │       ├── ActionButton.tsx
+│   │       └── SectionHeading.tsx
+│   └── ui/
+│       ├── Container.tsx
+│       └── Section.tsx
+└── data/
+    └── naruto.ts
+```
 
-#### Thanh toán
-- Thanh toán khi nhận hàng (COD) hoặc sử dụng API thanh toán mô phỏng
-- Không tích hợp cổng thanh toán thực tế
+`NarutoLanding.tsx` chỉ đóng vai trò composer, lắp các section theo thứ tự. Toàn bộ nội dung mock và interface TypeScript được tập trung trong `data/naruto.ts`, giúp section component không phải hard-code dữ liệu.
 
-### 2. Vẽ các diagram cơ sở
+---
 
-- Use Case Diagram
-- Activity Diagram:
-  - Luồng đặt hàng
-  - Luồng theo dõi đơn hàng
-- Sequence Diagram: Luồng đặt hàng
+### Những gì đã xây dựng
 
-> [Link diagram](https://drive.google.com/file/d/1o_GBOS3tu2yS1wSgaQdFyCRMW6Mw7B0P/view?usp=sharing)
+**Nền tảng**
+
+Tích hợp Bento Design System, cấu hình metadata trang, tạo `MarketingLayout` làm wrapper chung cho header, main content và footer. Thêm anchor navigation trên header.
+
+**Các section**
+
+Landing page được chia thành mười section độc lập:
+
+| #  | Section          | Mục đích                                       |
+| -- | ---------------- | ------------------------------------------------- |
+| 1  | Hero             | Giới thiệu chủ đề chính và CTA             |
+| 2  | About Naruto     | Câu chuyện và hành trình được công nhận |
+| 3  | Shinobi World    | Chakra, Bonds và Will of Fire                    |
+| 4  | Characters       | Naruto, Sasuke, Sakura                            |
+| 5  | The Journey      | Timeline từ Academy đến thế hệ tiếp theo    |
+| 6  | Iconic Moments   | Các khoảnh khắc nổi bật                      |
+| 7  | Jutsu            | Orbit tương tác các kỹ thuật ninja          |
+| 8  | Quotes           | Câu nói tiêu biểu trong series                |
+| 9  | Naruto vs Sasuke | Mối quan hệ đối đầu và gắn kết           |
+| 10 | CTA              | Lời kêu gọi tiếp tục hành trình            |
+
+**Hero section** gồm eyebrow tiếng Nhật và tiếng Anh, tagline chính *"The way of the ninja is never a straight line."*, mô tả ngắn về thế giới shinobi, CTA `Enter the shinobi world` và badge `火の意志 / WILL OF FIRE`.
+
+**Mock data và interface**
+
+Đã định nghĩa các TypeScript interface để chuẩn hóa dữ liệu cho từng section:
+`HeroContent`, `FeatureItem`, `CharacterProfile`, `TeamMember`, `TimelineEntry`, `IconicMoment`, `JutsuItem`, `QuoteItem`, `RivalryContent`.
+
+---
+
+### Thiết kế giao diện
+
+**Color palette**
+
+```text
+Background: #0B0B0F
+Surface:    #15151C
+Orange:     #FF6B00
+Yellow:     #FFA726
+White:      #F5F5F5
+Muted:      #9CA3AF
+```
+
+**Định hướng visual** — dark cinematic, lấy cảm hứng từ Nhật Bản, tương phản cao, nhiều chi tiết vòng tròn, kanji (`忍`, `術`, `言葉`) và border kỹ thuật. Heading lớn, đậm, condensed. Body text dùng sans-serif dễ đọc. Accent màu cam lấy cảm hứng từ Naruto.
+
+CSS được tách thành các file riêng theo trách nhiệm (`base`, `naruto-theme`, `motion`, `sections`, `jutsu-orbit`) để dễ maintain.

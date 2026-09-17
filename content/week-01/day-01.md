@@ -2,7 +2,7 @@
 
 #### I. Basic Git Commands
 
-title = "Day 01 - 15/09/2026"
+title = "Day 01 - 15/09/2026 (On-site)"
 weight = 1
 +++
 
