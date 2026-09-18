@@ -216,26 +216,3 @@ Landing page được chia thành các section:
 - Contact
 
 Các section được liên kết bằng anchor navigation để người dùng có thể di chuyển nhanh trong trang.
-
-**Bước 4: Cập nhật nội dung cá nhân**
-
-- Thay thế nội dung mẫu bằng thông tin từ CV cá nhân.
-- Bổ sung kỹ năng được phân nhóm: Programming, Backend, Frontend, Database, Tools & AI.
-- Thêm các dự án thực tế với mô tả, công nghệ sử dụng và vai trò.
-- Thêm thông tin học vấn và kinh nghiệm.
-- Thêm thông tin liên hệ và các đường dẫn mạng xã hội.
-
-**Bước 5: Tinh chỉnh giao diện và kiểm tra**
-
-- Redesign section About Me và thêm profile snapshot card với các chỉ số nổi bật.
-- Đổi palette từ màu beige/cam sang màu xanh lạnh.
-- Thêm bo góc cho button, card, tag và các section.
-- Thêm shadow nhẹ để giao diện có chiều sâu hơn.
-- Thay favicon mặc định bằng logo tùy chỉnh.
-- Kiểm tra responsive trên các kích thước màn hình khác nhau.
-- Chạy production build để xác nhận không có lỗi.
-
-### Link Demo
-
-- [Personal Portfolio](https://minhtrungportfolios-ebon.vercel.app/)
-- [Source Code](https://github.com/MinhTrungPham/weekly-reports/tree/main/tuan-01/my%20portfolios)

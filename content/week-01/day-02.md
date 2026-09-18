@@ -216,26 +216,3 @@ The landing page is divided into the following sections:
 - Contact
 
 Sections are linked with anchor navigation so users can jump quickly within the page.
-
-**Step 4: Update personal content**
-
-- Replace placeholder content with real information from the personal CV.
-- Add skills grouped by category: Programming, Backend, Frontend, Database, Tools & AI.
-- Add project entries with descriptions, technologies used, and roles.
-- Add education and experience entries.
-- Add contact information and social links.
-
-**Step 5: Refine the UI and verify**
-
-- Redesign the About Me section and add a profile snapshot card with key metrics.
-- Switch the color palette from beige/orange to a cool blue theme.
-- Add rounded corners to buttons, cards, tags, and sections.
-- Add subtle shadows for visual depth.
-- Replace the default favicon with a custom logo.
-- Verify responsive behavior across different screen sizes.
-- Run a production build to confirm there are no errors.
-
-### Link Demo
-
-- [Personal Portfolio](https://minhtrungportfolios-ebon.vercel.app/)
-- [Source Code](https://github.com/MinhTrungPham/weekly-reports/tree/main/tuan-01/my%20portfolios)
