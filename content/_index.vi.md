@@ -4,7 +4,6 @@ date: 2026-06-15
 weight: 1
 chapter: false
 ---
-
 # Ghi chú thực tập LAZTAR
 
 <div class="laztar-home">
@@ -17,7 +16,7 @@ chapter: false
 
 PEEP dành cho sinh viên muốn theo đuổi nghề kỹ sư phần mềm thông qua môi trường phát triển sản phẩm thực tế, mentoring, review kỹ thuật, làm việc nhóm và giao tiếp chuyên nghiệp.
 
-- **Thành viên:** Nguyen Nhat Kim Ngan
+- **Thành viên:** Phạm Minh Trung
 - **Chương trình:** PEEP 2026 - Software Engineer
 - **Giai đoạn hiện tại:** Product Engineering Experience Program
 - **Công ty:** Công ty trách nhiệm hữu hạn LAZTAR - Phần Mềm & Giải Pháp Số
@@ -36,15 +35,3 @@ PEEP dành cho sinh viên muốn theo đuổi nghề kỹ sư phần mềm thôn
 
 - [Website LAZTAR](https://laztar.com/)
 - [Facebook LAZTAR](https://www.facebook.com/laztar.tech)
-
-### Nội dung ghi chú
-
-<div class="laztar-section-list">
-
-1. [Tài nguyên](resources/)
-2. [Tuần 01](week-01/)
-3. [Tuần 02](week-02/)
-4. [Tuần 03](week-03/)
-5. [Tuần 04](week-04/)
-
-</div>
