@@ -12,3 +12,4 @@ PEEP 2026 notes for the second week. This week starts the Mini-WMS project busin
 - [Day 02 - 22/09/2026 (On-site)](day-02/)
 - [Day 03 - 23/09/2026 (Remote)](day-03/)
 - [Day 04 - 24/09/2026 (Remote)](day-04/)
+- [Day 05 - 25/09/2026 (On-site)](day-05/)

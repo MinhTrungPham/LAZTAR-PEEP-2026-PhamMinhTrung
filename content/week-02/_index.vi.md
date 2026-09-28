@@ -12,3 +12,4 @@ Ghi chú PEEP 2026 cho tuần thứ hai. Tuần này bắt đầu tìm hiểu t�
 - [Ngày 02 - 22/09/2026 (On-site)](day-02/)
 - [Ngày 03 - 23/09/2026 (Remote)](day-03/)
 - [Ngày 04 - 24/09/2026 (Remote)](day-04/)
+- [Ngày 05 - 25/09/2026 (On-site)](day-05/)
